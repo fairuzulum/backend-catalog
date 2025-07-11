@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hero_banner_kategoris",
+  "info": {
+    "singularName": "hero-banner-kategori",
+    "pluralName": "hero-banner-kategoris",
+    "displayName": "Hero Banner Kategori"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
